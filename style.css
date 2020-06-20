@@ -5,7 +5,7 @@
 
 .nav {
     padding: 14px 105px;
-    background: hsl(233, 50%, 45%);
+    background: white;
     display: flex;
     position: sticky;
 }
@@ -30,7 +30,7 @@
 }
 
 .at:hover {
-    color: white;
+    color: black;
     width: 10px;
 }
 
@@ -52,13 +52,14 @@
 
 .sec-2 {
     padding: 45px 142px;
-    background: hsl(233, 3%, 62%);
+    background: hsl(220, 16%, 96%);
 }
 
 .sec-2 h1 {
     font-size: 45px;
+    font-weight: 500;
     margin-bottom: 40px;
-    color: hsl(220, 16%, 96%);
+    color: black;
 }
 
 .sec-2 h2 {
@@ -89,7 +90,7 @@
 
 .sec1 {
     padding: 135px;
-    background: whitesmoke;
+    background: hsl(0, 0%, 98%);
 }
 
 .immg {
@@ -97,7 +98,7 @@
 }
 
 .sec2 {
-    background: url(./images/bg-intro-desktop.svg)center;
+    background: url(./images/bg-intro-desktop.svg) center;
 }
 
 .cont {
@@ -112,7 +113,6 @@
 
 .sec-3 {
     margin: 97px 158px;
-    background: whitesmoke;
 }
 
 .sec-3 h1 {
@@ -191,4 +191,16 @@ button {
 
 button:hover {
     background-image: linear-gradient(to left, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    color: black;
+}
+
+.attribution {
+    font-size: 30px;
+    color: black;
+    background: teal;
+}
+
+.attribution a {
+    text-decoration: none;
+    color: white;
 }
