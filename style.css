@@ -1,0 +1,194 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.nav {
+    padding: 14px 105px;
+    background: hsl(233, 50%, 45%);
+    display: flex;
+    position: sticky;
+}
+
+.nav-1 {
+    padding-left: 210px;
+}
+
+.btn1 {
+    margin-left: 169px;
+    width: 204px;
+    height: 38px;
+    border-radius: 19px;
+    background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+}
+
+.at {
+    padding-left: 30px;
+    color: silver;
+    font-size: 26px;
+    text-decoration: none;
+}
+
+.at:hover {
+    color: white;
+    width: 10px;
+}
+
+.sec-1 {
+    display: flex;
+}
+
+.sec1 h1 {
+    font-size: 70px;
+    margin-bottom: 30px;
+}
+
+.sec1 p {
+    margin-bottom: 30px;
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.sec-2 {
+    padding: 45px 142px;
+    background: hsl(233, 3%, 62%);
+}
+
+.sec-2 h1 {
+    font-size: 45px;
+    margin-bottom: 40px;
+    color: hsl(220, 16%, 96%);
+}
+
+.sec-2 h2 {
+    font-weight: 300;
+}
+
+.sec-2 p {
+    margin-bottom: 62px;
+    font-size: 19px;
+    color: hsl(233, 23%, 83%);
+}
+
+.one {
+    display: flex;
+}
+
+.con-2 {
+    margin-left: 46px;
+}
+
+.con-3 {
+    margin-left: 46px;
+}
+
+.con-4 {
+    margin-left: 46px;
+}
+
+.sec1 {
+    padding: 135px;
+    background: whitesmoke;
+}
+
+.immg {
+    margin: -174px -8px;
+}
+
+.sec2 {
+    background: url(./images/bg-intro-desktop.svg)top;
+}
+
+.cont {
+    display: flex;
+}
+
+.image {
+    width: 92%;
+    height: 56%;
+    margin-bottom: 20px;
+}
+
+.sec-3 {
+    margin: 97px 158px;
+    background: whitesmoke;
+}
+
+.sec-3 h1 {
+    font-size: 46px;
+    font-weight: 500;
+    margin-bottom: 62px;
+    color: black;
+}
+
+.cont h5 {
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 16px;
+    color: silver;
+}
+
+.cont h2 {
+    font-size: 23px;
+    font-weight: 500;
+    margin-bottom: 11px;
+}
+
+.cont p {
+    color: silver;
+}
+
+.foot {
+    display: flex;
+    padding: 37px 155px;
+    background: hsl(233, 50%, 45%);
+}
+
+.fimage {
+    margin-bottom: 60px;
+    color: white;
+}
+
+.footer {
+    margin-left: 81px;
+    text-decoration: none;
+    color: white;
+}
+
+.footer:hover {
+    color: silver;
+}
+
+.foot4 {
+    margin-left: 416px;
+}
+
+.foot4 h3 {
+    margin: 28px 11px;
+    color: silver;
+}
+
+.end {
+    margin-left: 20px;
+}
+
+.foot2,
+.foot3 {
+    margin-top: 10px;
+}
+
+button {
+    width: 204px;
+    height: 44px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    position: sticky;
+    border-radius: 19px;
+    background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+}
+
+button:hover {
+    background-image: linear-gradient(to left, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+}
